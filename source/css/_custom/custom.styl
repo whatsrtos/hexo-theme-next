@@ -1,1 +1,118 @@
 // Custom styles.
+
+// INDIAN RED #cd5c5c
+// RED(Link) #db3f00 
+// GREEN(Light-H1) #2bbc8a
+// GREEN(Fade) #4d9373
+// GREEN #3cb371
+
+
+
+// add border line under h1 
+.post-body h1 {
+  border-bottom: 1px solid #ddd;
+}
+
+
+// add '# ' before h
+.post-body h1:before,
+.post-body h2:before,
+.post-body h3:before,
+.post-body h4:before,
+.post-body h5:before,
+.post-body h6:before {
+    content: "# ";
+    color: #2bbc8a;
+    font-weight: bold;
+}
+
+
+// 引用块
+blockquote {
+    color: #999;
+    border-left: 4px solid #ccc;
+    margin-bottom: 20px;
+}
+
+// 行内代码块
+code {
+    color: #cc3d5a;
+    background: #f8f2f4;
+    word-wrap: break-word;
+    //word-break:break-all;
+}
+
+// 正文超链接
+.post-body p a {
+    color: #db3f00;
+    border-bottom: 1px solid #f1948a;
+    word-break:break-all;
+    &:hover {
+        color: #ee2a00;
+    }
+}
+
+
+// 主页-右下-导航栏-触发按钮
+.sidebar-toggle-line {
+    background: #2bbc8a;
+}
+
+// 正文-右下-导航栏-触发按钮
+.page-post-detail .sidebar-toggle-line {
+    background: #2bbc8a;
+}
+
+// 正文-导航栏-Tab-激活
+.sidebar-nav .sidebar-nav-active {
+    color: #009688;
+    border-bottom-color: #4d9373;
+    &:hover {
+        color: #2bbc8a;
+    }
+}
+
+// 正文-导航栏-Tab-非激活
+.sidebar-nav li {
+    //color: #ccc;
+    &:hover {
+        color: #2bbc8a;
+        border-bottom-color: #2bbc8a;
+    }
+}
+
+// 正文-侧边toc-当前标题
+.post-toc .nav .active > a {
+    color: #009688;
+    border-bottom-color: #4d9373;
+    &:hover {
+        color: #2bbc8a;
+    }
+}
+
+// 正文-侧边toc-当前标题
+.post-toc .nav .active-current > a {
+    color: #009688;
+    border-bottom-color: #4d9373;
+    &:hover {
+        color: #2bbc8a;
+    }
+}
+
+// 正文-侧边-toc-非当前标题
+.post-toc ol a {
+    //color: #aaa;
+    //border-bottom-color: #555
+    &:hover {
+        color: #2bbc8a;
+        border-bottom-color: #2bbc8a;
+    };
+}
+
+// add image at header
+//#header { 
+//    background:url(/images/header.jpg);
+//    background-repeat: no-repeat;
+//    background-size: cover;
+//    color: #fff !important;
+//}
